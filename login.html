@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(download\ \(3\).jpeg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    margin-top: 150px;
+    }
+    .box{
+        width: fit-content;
+        height:auto;
+        border: 3px solid white;
+        box-shadow:0 0 13px;
+        border-radius: 15px;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px skyblue;
+        color: darkblue;
+    }
+    .username{
+    font-weight: bold;
+    font-size:20px;
+    padding: 8px;
+    }
+    .password{
+    font-weight: bold;
+    font-size:20px ;
+    padding: 8px;
+
+    }
+    button{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+    background-color:skyblue;
+    width: 280px;
+    border-radius: 100px;
+    padding: 3px;
+    border-color: darkblue;
+    margin-left: 25px;
+    }
+    input{
+        height:25px;
+        width:250px;
+        margin: 10px;
+        border-radius: 10px;
+        padding-left: 10px;
+        border-color: darkblue;
+    }
+    h4{
+        display: flex;
+        justify-content: end;
+        margin-right: 17px;
+        margin-top: -10px;
+    }
+    h5{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: -20px;
+    }
+    label{
+        margin-left: 40px;
+    }
+    h6{
+        margin-left: 135px;
+        font-size: 15px;
+    }
+    .fa-house{
+        font-size: 26px;
+    }
+
+</style>
+<body>
+<div class="box">
+    
+    <h1><i class="fa-solid fa-house"></i>LOGIN</h1>
+   <div class="username">
+    <label>username</label><br>
+    <i class="fa-solid fa-user"></i>
+    <input type="text" placeholder="Enter your name">
+   </div>
+
+   <div class="password">
+    <label>password</label><br>
+    <i class="fa-solid fa-key"></i>
+    <input type="password" placeholder="Enter your password" class="input-field">
+    
+   </div>
+   <h4>forget password?</h4>
+   <button>LOGIN</button>
+   <h5>or sign up Using</h5>
+   <h6><i class="fa-brands fa-google"></i>    <i class="fa-brands fa-facebook"></i>     <i class="fa-brands fa-square-instagram"></i></h6>
+</div>
+</body>
+</html>
